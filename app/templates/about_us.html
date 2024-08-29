@@ -1,0 +1,52 @@
+{% extends "layout.html" %} {% block title %}About Us - {% endblock %} {% block
+content %}
+<div class="container mt-4">
+  <section class="home-body-section page-header text-center">
+    <h2>About Us</h2>
+    <p>Learn more about our organization and our mission.</p>
+  </section>
+
+  <section class="home-body-section about-section">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Our Mission</h2>
+        <p>
+          At Project R, our mission is to make a positive impact on society by
+          saving lives through blood donation. We are committed to ensuring a
+          stable and sufficient blood supply for those in need, ultimately
+          creating a healthier and more resilient community.
+        </p>
+      </div>
+
+      <div class="col-md-6 image-section">
+        <img
+          src="{{ url_for('static', filename='images/give-blood.jpg') }}"
+          alt="About Us Image"
+          class="img-fluid"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="home-body-section values-section mt-4">
+    <h2>Our Values</h2>
+    <ul>
+      <li>
+        <strong>Community:</strong> We prioritize the well-being of our
+        community by ensuring a stable blood supply for medical treatments.
+      </li>
+      <li>
+        <strong>Impact:</strong> We believe in the life-changing impact of blood
+        donation and strive to encourage regular participation.
+      </li>
+      <li>
+        <strong>Education:</strong> We are dedicated to raising awareness about
+        the importance of blood donation and its positive effects.
+      </li>
+    </ul>
+  </section>
+
+
+  <br />
+</div>
+{% endblock %}
