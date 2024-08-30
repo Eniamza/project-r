@@ -1,5 +1,4 @@
 __pycache__
 .vscode
 flask_session
-project_r_backup.sql
 config.py
